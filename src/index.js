@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-// require('./db');
+require('./db');
 const cors = require('cors');
 const helmet = require('helmet');
 const router = require('./api/routes/routes');
