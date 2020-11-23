@@ -1,0 +1,48 @@
+{
+  "name": "Express-MongoAPI-BoilerTemplate",
+  "version": "1.0.0",
+  "description": "This is the basic base API template.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "DEBUG=app:* nodemon src/index",
+    "start": "NODE_ENV=production node src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ByChanderZap/Express-MongoAPI-BoilerTemplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ByChanderZap/Express-MongoAPI-BoilerTemplate/issues"
+  },
+  "homepage": "https://github.com/ByChanderZap/Express-MongoAPI-BoilerTemplate#readme",
+  "dependencies": {
+    "@hapi/boom": "^9.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "joi": "^17.3.0",
+    "mongoose": "^5.10.15"
+  },
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.5.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6",
+    "prettier": "^2.2.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
+  }
+}
