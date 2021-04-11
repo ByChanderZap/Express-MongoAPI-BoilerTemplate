@@ -48,8 +48,8 @@ npm start
 - Mongodb
 - Node 12+
 
-# What include? 🧨✨🎉
-Include the most basic API project with node + express + mongodb. Things like a validation middleware, an error handler, automatic db connection, JWT base authentication etc.
+# What does it include? 🧨✨🎉
+It ncludes the most basic API project using node + express + mongodb. Things like validation middleware, an error handler, automatic db connection, JWT base authentication etc.
 
 ## Contributing ✒️
 Pull requests are welcome!. And if you have an idea for a feature and dont have time to do this, feel free to open a issue!
